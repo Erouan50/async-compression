@@ -86,7 +86,7 @@ lz4 = "1.28.1"
 liblzma = "0.4.2"
 zstd-safe = { version = "7", default-features = false }
 deflate64 = "0.1.5"
-snap = "1"
+snap = { git = "https://github.com/Erouan50/rust-snappy.git", branch = "feat/output-maybe-uninit" }
 
 [lints]
 workspace = true

@@ -58,7 +58,7 @@ lz4 = { version = "1.28.1", optional = true }
 liblzma = { version = "0.4.5", optional = true }
 memchr = { version = "2", optional = true }
 zstd-safe = { version = "7", optional = true, default-features = false }
-snap = { version = "1", optional = true, default-features = false }
+snap = { git = "https://github.com/Erouan50/rust-snappy.git", branch = "feat/output-maybe-uninit", optional = true, default-features = false }
 crc32c = { version = "0.6.8", optional = true, default-features = false }
 
 [lints]
